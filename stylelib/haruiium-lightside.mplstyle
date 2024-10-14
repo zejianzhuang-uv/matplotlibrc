@@ -1,0 +1,55 @@
+### FONT
+text.color: black
+
+### AXES
+axes.facecolor: EEEEEE60   # axes background color
+axes.edgecolor: 5F5F5FAC   # axes edge color
+axes.labelcolor: 000000D9
+axes.prop_cycle: cycler('color', ['348ABD', 'A60628', '7A68A6', '467821', 'D55E00', 'CC79A7', '56B4E9', '009E73', 'C5BB36', '002D47'])
+
+### TICKS
+xtick.color: 000000D9      # color of the tick labels
+ytick.color: 000000D9      # color of the tick labels
+
+### GRIDS
+grid.color: 5F5F5FAC   # grid color
+grid.linestyle: --
+
+### Legend
+legend.facecolor: FFFFFFD9   # legend background color (when 'inherit' uses axes.facecolor)
+legend.edgecolor: 5F5F5FAC   # legend edge color (when 'inherit' uses axes.edgecolor)
+
+### FIGURE
+#TODO: notebook ignores this
+figure.dpi: 800
+savefig.format: png
+figure.facecolor: FFFFFF60    # figure facecolor
+savefig.facecolor: FFFFFF60  # figure facecolor
+
+### Text
+font.family: DejaVu Sans
+text.usetex: False
+font.serif: Computer Modern Roman
+font.sans-serif: Helvetica
+
+### 'bmh'
+
+# 'axes.edgecolor': '#bcbcbc',
+# 'axes.facecolor': '#eeeeee',
+# 'axes.grid': True,
+# 'axes.labelsize': 'large',
+# 'axes.prop_cycle': cycler('color', ['#348ABD', '#A60628', '#7A68A6', '#467821', '#D55E00', '#CC79A7', '#56B4E9', '#009E73', '#F0E442']),
+# 'axes.titlesize': 'x-large',
+# 'grid.color': '#b2b2b2',
+# 'grid.linestyle': '--',
+# 'grid.linewidth': 0.5,
+# 'legend.fancybox': True,
+# 'lines.linewidth': 2.0,
+# 'mathtext.fontset': 'cm',
+# 'patch.antialiased': True,
+# 'patch.edgecolor': '#eeeeee',
+# 'patch.facecolor': 'blue',
+# 'patch.linewidth': 0.5,
+# 'text.hinting_factor': 8,
+# 'xtick.direction': 'in',
+# 'ytick.direction': 'in'
